@@ -1,0 +1,23 @@
+.button-cities {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; 
+    font-size: 22px;
+    font-weight: bold;
+    color: #000000;
+    background-color: #ffffff;
+    border: 1px solid #eaeaea;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 350px; 
+    height: 100px;
+    }
+    
+    .button-cities:hover {
+      background-color: #d7d7d727;
+    }
+    .button-cities-image {
+      width: 80px; 
+      height: 80px;
+      margin-left: 25px;
+  }
