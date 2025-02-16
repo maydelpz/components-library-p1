@@ -1,7 +1,7 @@
 import React from "react";
-import "./CardTemperature.css";
+import "./TemperatureCard.css";
 
-export interface CardTemperatureProps {
+export interface TemperatureCardProps {
   label?: string;
   city?: string;
   date?: string;
@@ -11,14 +11,14 @@ export interface CardTemperatureProps {
   imageTemperatureSrc?: string;
 }
 
-const CardTemperature = ({
+const TemperatureCard = ({
   label = "Temperatura",
   city = "Chihuahua",
   date = "Mon, 15 Feb",
   grades = "27°C",
   text = "Sunny",
   imageTemperatureSrc = "https://png.pngtree.com/png-clipart/20201209/original/pngtree-sun-png-clipart-colored-png-image_5656301.png",
-}: CardTemperatureProps) => {
+}: TemperatureCardProps) => {
   return (
     <div className="card-temperature">
       <span className="card-temperature-city">{city}</span>
@@ -35,4 +35,4 @@ const CardTemperature = ({
   );
 };
 
-export default CardTemperature;
+export default TemperatureCard;
