@@ -1,0 +1,22 @@
+.temperatura {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    font-size: 22px;
+    font-weight: bold;
+    color: #000000;
+    background-color: #e28622; 
+    border: none; 
+    border-radius: 12px; 
+    cursor: pointer;
+    width: 350px; 
+    height: 100px;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2); 
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+  }
+  
+  .temperatura:hover {
+    background-color: #e28622; 
+    transform: scale(1.05); 
+  }
+  
