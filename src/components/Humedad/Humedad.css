@@ -1,4 +1,4 @@
-.button-humedad {
+.humedad {
     display: flex;
     align-items: center;
     justify-content: center; 
@@ -15,7 +15,7 @@
     transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
   }
   
-  .button-humedad:hover {
+  .humedad:hover {
     background-color: #EBC85E; 
     transform: scale(1.05); 
   }
