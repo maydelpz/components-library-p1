@@ -5,7 +5,7 @@
     font-size: 22px;
     font-weight: bold;
     color: #000000;
-    background-color: #F5D469;
+    background-color: #F5D469; 
     border: none; 
     border-radius: 12px; 
     cursor: pointer;
@@ -16,7 +16,7 @@
   }
   
   .button-humedad:hover {
-    background-color: #EBC85E;
+    background-color: #EBC85E; 
     transform: scale(1.05); 
   }
   
