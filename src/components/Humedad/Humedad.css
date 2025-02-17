@@ -1,0 +1,22 @@
+.button-humedad {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centrado perfecto */
+    font-size: 22px;
+    font-weight: bold;
+    color: #000000;
+    background-color: #F5D469; /* Color amarillo similar al de la imagen */
+    border: none; /* Eliminamos el borde */
+    border-radius: 12px; /* Bordes más redondeados */
+    cursor: pointer;
+    width: 350px; 
+    height: 100px;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2); /* Sombra sutil */
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+  }
+  
+  .button-humedad:hover {
+    background-color: #EBC85E; /* Un amarillo un poco más oscuro */
+    transform: scale(1.05); /* Pequeña animación al pasar el mouse */
+  }
+  
